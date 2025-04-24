@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding : 2% 5%;
+    background-color: rgb(224, 208, 187);
+}
+nav{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:3%;
+}
+nav>div>img{
+    width:8rem;
+    height:8rem;
+}
+.menu{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2rem;
+    font-size: larger;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+
+}
+#collegeCarousel {
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text-justify {
+    text-align: justify;
+}
